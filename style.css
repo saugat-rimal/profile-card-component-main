@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #00B6C7;
+    position: relative;
+}
+
+
+body {
+    background-image: url(./images/bg-pattern-top.svg),
+        url(./images//bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 48vw bottom 40vh, left 45vw top 44vh;
+}
+
+
+.color-topic {
+    color: #2D3248;
+}
+
+section#container {
+    max-width: 450px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+
+.person-img {
+    transform: translateY(-14px);
+    border: 6px solid white;
+    border-radius: 50%;
+}
+
+.bg-img {
+    border-radius: 15px 15px 0 0;
+
+}
+
+
+#container>.person--details {
+
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: -2rem;
+
+}
+
+span.year {
+    font-weight: 400;
+    margin-left: 1rem;
+    color: #6A6F81;
+}
+
+#container>.person--details .name {
+    margin: 0.5rem 0;
+}
+
+
+#container>.person--details p {
+    color: #6A6F81;
+}
+
+
+#container>.people--info {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 1.6rem;
+    flex-wrap: wrap;
+
+
+}
+
+#container>.people--info p {
+    color: #6A6F81;
+    font-size: 12px;
+    letter-spacing: 1px;
+
+}
+
+hr {
+    color: #F7F7F7;
+}
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 1rem;
+}
